@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
-/* ===== Global Styles ===== */
+
 body {
   margin: 0;
   padding: 0;
@@ -11,19 +11,13 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-/* Centers the main layout vertically for longer pages */
+
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Makes sure the footer stays at the bottom even if content is short */
-footer {
-  margin-top: auto;
-}
-
-/* Optional: Add smooth transitions for global feel */
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
