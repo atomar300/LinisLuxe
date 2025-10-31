@@ -2,10 +2,20 @@ import React from "react";
 import "./Header.css";
 
 function Header() {
+
+
+  const handleScroll = () => {
+    const footerSection = document.getElementById("contact");
+    if (footerSection) {
+      footerSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  
   return (
     <header className="navbar">
-      <h1 className="brand">LinisLuxe</h1>
-      <p className="contact">Book an appointment at (437) 267-8504</p>
+      <h1 className="brand">LinisLuxe Cleaning Services Incorporated</h1>
+      <button className="contact-btn" onClick={handleScroll}>Contact</button>
     </header>
   );
 }

@@ -1,11 +1,12 @@
 .services {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(65, 65, 65);
   margin: 2rem auto;
   border-radius: 16px;
   width: 90%;
   max-width: 900px;
+  color: gold;
 }
 
 .services h2 {
@@ -22,7 +23,7 @@
 .services li {
   font-size: 1.1rem;
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid white;
 }
 
 .services li:last-child {

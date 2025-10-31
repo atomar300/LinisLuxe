@@ -6,6 +6,8 @@
   flex-wrap: wrap;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: rgb(177, 177, 177);
+  color: gold;
 }
 
 .hero-text {
@@ -18,7 +20,7 @@
 }
 
 .hero-text p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 

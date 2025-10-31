@@ -1,8 +1,8 @@
 .footer {
   text-align: center;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #444;
+  background-color: rgb(23, 23, 23);
+  color: white;
   margin-top: 2rem;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .footer-contacts a {
-  color: #444;
+  color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -31,5 +31,5 @@
 }
 
 .footer-contacts a:hover {
-  color: #ff7070;
+  color: gold;
 }

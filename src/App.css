@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 /* ===== Global Styles ===== */
 body {
   margin: 0;
   padding: 0;
   color: #2d2d2d;
-  background: linear-gradient(to bottom right, #ffc2c2, #ff9e9e);
+  background: rgb(238, 238, 238);
   min-height: 100vh;
+  font-family: "Playfair Display", serif;
 }
 
 /* Centers the main layout vertically for longer pages */
